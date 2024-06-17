@@ -58,11 +58,3 @@ button:hover {
     text-align: end;
     font-size: 1.5rem;
 }
-
-.secondary-buttons {
-    margin:auto;
-    background-color: grey;
-    gap:10px;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr ;
-}
