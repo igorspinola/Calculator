@@ -34,14 +34,7 @@ operations.forEach(
     (o) => {
         o.addEventListener("click", () => {
             operation = o.textContent
-            if(first_number == "") {
-                first_number = input.value       
-            } else {
-                input.value = ERROR
-                first_number = ""
-                second_number = ""
-                operation = ""
-            }
+            first_number = input.value       
             input.value = operation
             console.log(first_number)
             console.log(operation)
@@ -65,7 +58,7 @@ equal.addEventListener("click", () => {
             input.value = `${first_number * second_number}`
             break
         case "%":
-            input.value = `${first_number % second_number}` 
+            input.value = `${first_number / second_number}` 
             break
     }
     const result = input.value
