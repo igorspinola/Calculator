@@ -15,6 +15,7 @@ body {
 button {
     border: 0;
 }
+
 button:hover {
     cursor: pointer;
     background-color: #C3C4C4;
